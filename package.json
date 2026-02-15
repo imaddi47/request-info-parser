@@ -1,0 +1,24 @@
+{
+  "name": "request-info-parser",
+  "version": "1.0.0",
+  "description": "Production-grade HTTP request audit API",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ua-parser-js": "^1.0.40",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "@types/ua-parser-js": "^0.7.39",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
